@@ -1,13 +1,14 @@
 #about_me {
   background-color: #182249;
 }
+body {
+  margin: 0%;
+}
 .topnav {
   background-color:#538EC6;
   overflow: hidden;
   width: 100%;
   top: 0;
-  position: fixed;
-
 }
 
 .topnav a {

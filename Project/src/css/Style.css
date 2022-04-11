@@ -1,0 +1,65 @@
+#about_me {
+  background-color: #182249;
+}
+.topnav {
+  background-color:#538EC6;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+}
+
+.topnav a {
+  float: left;
+  color: #182249;
+  padding: 30px;
+  font-size: 16px;
+
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.topnav img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+
+    margin-top: -6px;
+}
+h1 {
+  text-align: center;
+  color: #182249;
+}
+.productCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 40px;
+  margin-left: 50px;
+  text-align: center;
+  font-family: arial;
+  background-color: rgb(190, 224, 224);
+}
+.productDetails {
+  color: rgb(26, 0, 51);
+  font-weight: bold;
+  font-size: 18px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(23, 31, 102);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}

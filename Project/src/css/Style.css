@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   width: 100%;
   top: 0;
-  position: sticky;
+  position: fixed;
 }
 
 .topnav a {
@@ -43,7 +43,7 @@ h1 {
 .productCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin-top: 40px;
+  margin-top: 130px;
   margin-left: 88px;
   text-align: center;
   font-family: arial;
@@ -138,3 +138,56 @@ button:hover, a:hover {
   margin-bottom:0;
 }
 
+.contents {
+  top: 0;
+  position: sticky;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.bn49 {
+  border: 0;
+  text-align: center;
+  padding: 14px;
+  width: 100px;
+  margin: 7px;
+  margin-left: 140px;
+  color: #ffffff;
+  background-color: #36a2eb;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+  position: relative;
+  top:120px;
+  float: left; 
+}

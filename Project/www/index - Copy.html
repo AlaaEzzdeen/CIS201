@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PCgetter</title>
+    <title>PCgetter - </title>
     <script src="../src/js/Script.js"></script>
     <link rel="stylesheet" href="../src/css/Style.css">
     <link rel="style" href="../src/css/bootstrap.min.css">
-
 </head>
 <body style="background-color:darkgray">
     <div class="topnav">
         <a href="index.html"><img src="../src/imgs/logo.jpg" alt="My website logo"></a>
         <a href="https://github.com/AlaaEzzdeen/CIS201.git" target="_blank"><img src="../src/imgs/Github-logo.png" alt="github logo"></a>
         <a href="about-me.html" target="_blank" style="float: right;"><img src="../src/imgs/70376.png" alt=""></a>
-        <a href="cart.html" target="_blank" style="float: right;"><img src="../src/imgs/shopping-cart-logo-icon-png-favpng-vACYW2Ky1EDUCjtVvjxcAQUjF.jpg" alt=""></a>
+        <a href="cart.html" target="_blank" style="float: right;"><img src="../src/imgs/shopping-cart-logo-icon-png-favpng-vACYW2Ky1EDUCjtVvjxcAQUjF.jpg" alt="" id="cart">0</a>
+        <a href="Contact_Us.html" target="_blank" style="float: left; height: 46px; width: 46px;"><i>Prodcuts</i></a>
     </div>
-
-    <div id="display">
-        <button onclick="DisplayList(CPU)">Click me for gpus</button>
-        <button onclick="DisplayList(GPU)">Click me for gpus</button>
+    <a class="bn49" onclick="DisplayList(GPU)">GPU</a>
+    <a class="bn49" onclick="DisplayList(CPU)">CPU</a>
+    <a class="bn49" onclick="DisplayList(PSU)">PSU</a>
+    <a class="bn49" onclick="DisplayList(GPU)">Motherboards</a>
+    <div id="display">    
     </div>
+    
 </body>
 </html>

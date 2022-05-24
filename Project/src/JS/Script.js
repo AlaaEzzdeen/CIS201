@@ -19,9 +19,9 @@ var CPU =[
 var Mobo =[
     {header: "GIGABYTE H610M", img: "../src/imgs/h610.png", description: "Intel LGA 1700 Socket: Supports 12th Gen Intel Core Series Processors with DDR4 support", Price: "89.99$", Cart: "Add To Cart"},
     {header: "Gigabyte Z690 Aorus Master", img: "../src/imgs/z690.png", description: "Support 12th Gen Intel Series Processors with DDR5 memory", Price: "449.99$", Cart: "Add To Cart"},
-    {header: "MSI MAG B660 Tomahawk", img: "../src/imgs/5800x.png", description: "Intel LGA 1700 Socket: Supports 12th Gen Intel Core Series Processors with DDR4 support", Price: "189.99$", Cart: "Add To Cart"},
+    {header: "MSI MAG B660 Tomahawk", img: "../src/imgs/b660.png", description: "Intel LGA 1700 Socket: Supports 12th Gen Intel Core Series Processors with DDR4 support", Price: "189.99$", Cart: "Add To Cart"},
     {header: "GIGABYTE A520M", img: "../src/imgs/A520.png", description: "MicroATX, Supports AMD Ryzen 5000 Series/ 3rd Gen Ryzen and 3rd Gen Ryzen with Radeon Graphics Processors", Price: "189.99$", Cart: "Add To Cart"},
-    {header: "MSI B550-A PRO", img: "../src/imgs/5800x.png", description: "Support for 3rd Gen AMD Ryzen processors and future AMD Ryzen processors with BIOS update", Price: "139.99$", Cart: "Add To Cart"}
+    {header: "MSI B550-A PRO", img: "../src/imgs/B550.png", description: "Support for 3rd Gen AMD Ryzen processors and future AMD Ryzen processors with BIOS update", Price: "139.99$", Cart: "Add To Cart"}
 ];
 
 

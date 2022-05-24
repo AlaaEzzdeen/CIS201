@@ -2,9 +2,6 @@ html {
   height: 180%;
   scroll-behavior: smooth;
 }
-#about_me {
-  background-color: #182249;
-}
 body {
   margin: 0%;
   
@@ -15,6 +12,7 @@ body {
   width: 100%;
   top: 0;
   position: fixed;
+  
 }
 
 .topnav a {
@@ -43,8 +41,9 @@ h1 {
 .productCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin-top: 180px;
-  margin-left: 50px;
+  max-height: auto;
+  margin-top: 8%;
+  margin-left: 3%;
   text-align: center;
   font-family: arial;
   background-color: rgb(190, 224, 224);
@@ -62,7 +61,6 @@ h1 {
 button {
   border: none;
   outline: 0;
-  display: inline-block;
   padding: 8px;
   color: white;
   background-color: rgb(23, 31, 102);
@@ -178,7 +176,7 @@ input[type=submit]:hover {
   text-align: center;
   padding: 3%;
   width: 100px;
-  margin-left: 18%;
+  margin-left: 12%;
   color: #ffffff;
   background-color: #36a2eb;
   border-radius: 8px;
@@ -186,13 +184,7 @@ input[type=submit]:hover {
   font-weight: 600;
   text-decoration: none;
   transition: box-shadow 200ms ease-out;
-  position: relative;
-  top:120px;
+  position: static;
+  margin-top: 10%;
   float: left; 
-}
-.pros{
-  margin-left: 7%;
-  margin-right: auto;
-  display: block;
-  float: left;
 }

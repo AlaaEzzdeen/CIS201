@@ -10,10 +10,10 @@ var GPU = [
 var CPU =[
 
     {header: "Intel i9 12900k", img: "../src/imgs/i9.png", description: "The Intel Core i9-12900K is a high end CPU for desktops based on the Alder Lake architecture. And offers 8 performance cores and 8 efficiency cores. The performance cores (P-cores) support HyperThreading, leading to 24 Threads that can be processed at once.", Price: "589$", Cart: "Add To Cart"},
-    {header: "Intel i7 12700k", img: "../src/imgs/i7.png", description: " i7 12700k processor has a 5 GHz Turbo Boost Max 3.0 frequency with 25MB of cache for fast and reliable performance. The Core i7-12700K also includes support for up to PCI Express 5.0 and dual-channel DDR5 memory at 4800 MHz to help run and multitask a variety of demanding applications.", Price: "409$", Cart: "Add To Cart"},
+    {header: "Intel i7 12700k", img: "../src/imgs/i7.png", description: " i7 12700k processor has a 5 GHz Turbo Boost Max 3.0 frequency with 25MB of cache for fast and reliable performance.", Price: "409$", Cart: "Add To Cart"},
     {header: "Intel i5 12600k", img: "../src/imgs/i5.png", description: "The Intel Core i5-12600K is a brilliant processor for gaming. Rocking 10 physical hybrid cores and 16 threads, this CPU is more than powerful enough for the latest GPUs and PC games", Price: "320$", Cart: "Add To Cart"},
     {header: "AMD Ryzen 5 5600x", img: "../src/imgs/5600x.jpg", description: "This CPU features six cores, twelve threads, and a boost to 4.6GHz.", Price: "299$", Cart: "Add To Cart"},
-    {header: "AMD Ryzen 7 5800x", img: "../src/imgs/5800x.png", description: "The 5800X is one of the best CPUs for gaming, and ideally suited for a mid-range setup. It is an 8-core/16-thread part with a 3.8GHz base clock, 4.7GHz max boost clock, and 32MB of L3 cache. A great all-around workhorse, it can power both your gaming and productivity needs ", Price: "449$", Cart: "Add To Cart"}
+    {header: "AMD Ryzen 7 5800x", img: "../src/imgs/5800x.png", description: "The 5800X is one of the best CPUs for gaming, and ideally suited for a mid-range setup. ", Price: "449$", Cart: "Add To Cart"}
 ];
 
 var Mobo =[

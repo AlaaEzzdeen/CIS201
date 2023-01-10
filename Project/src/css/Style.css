@@ -1,10 +1,12 @@
 html {
   height: 180%;
   scroll-behavior: smooth;
+  
 }
 body {
+  background-color: #2c3e50;
   margin: 0%;
-  
+  color: #ecf0f1;
 }
 .topnav {
   background: #e74c3c;;
